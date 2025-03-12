@@ -1,5 +1,5 @@
 import { ModeToggle } from "@/components/header/mode-toggle";
-import decoIcon from "@/assets/decos/red4.svg";
+import decoRed4 from "@/assets/decos/red4.svg";
 import { Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -8,7 +8,7 @@ export function Header() {
         <header className="flex h-16 justify-between">
             {/* Left portion */}
             <div className="flex items-center gap-2 px-4">
-                <img src={decoIcon} alt="Decoration Icon" className="h-6 w-6" />
+                <img src={decoRed4} alt="Decoration Icon" className="h-6 w-6" />
                 <b>
                     <span className="text-gray-500">(MH)</span> Wilds Combo
                     Damage Calculator
