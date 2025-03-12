@@ -1,5 +1,7 @@
 import { ModeToggle } from "@/components/header/mode-toggle";
 import decoIcon from "@/assets/decos/red4.svg";
+import { Code } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export function Header() {
     return (
@@ -14,7 +16,10 @@ export function Header() {
             </div>
 
             {/* Right portion */}
-            <div className="flex items-center px-4">
+            <div className="flex items-center px-4 gap-2">
+                <Button variant="outline" size="icon">
+                    <Code />
+                </Button>
                 <ModeToggle />
             </div>
         </header>

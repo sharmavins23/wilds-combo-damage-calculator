@@ -29,7 +29,7 @@ export function Disclaimer() {
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <Accordion type="single" collapsible>
+                    <Accordion type="single" collapsible className="w-full">
                         <AccordionItem value="item-1">
                             <AccordionTrigger>
                                 Why is 'x' not working?
@@ -42,6 +42,33 @@ export function Disclaimer() {
                                 accounted for. Also, UI takes eons to make. In
                                 the meanwhile, feel free to bother me or submit
                                 a PR!
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-2">
+                            <AccordionTrigger>
+                                What assumptions did you make when calculating?
+                            </AccordionTrigger>
+                            <AccordionContent>
+                                If you want to check out the code, feel free -
+                                Link is in the header. However, any time I make
+                                an assumption about how a thing works, I'll add
+                                it in a tooltip.
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-3">
+                            <AccordionTrigger>
+                                Can you also implement an armor set builder?
+                            </AccordionTrigger>
+                            <AccordionContent>
+                                God no. Go look at{" "}
+                                <a
+                                    href="https://mhwilds.wiki-db.com/sim/"
+                                    target="_blank"
+                                    className="text-blue-500 underline hover:text-blue-700 transition-colors duration-300"
+                                >
+                                    this simulator
+                                </a>{" "}
+                                instead.
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
