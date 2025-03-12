@@ -22,6 +22,13 @@ Simple as.
 
 Feel free to contact me. Or, better yet, leave a PR!
 
+## Shoutouts
+
+Special thanks to:
+
+-   [OthelloRhin](https://github.com/OthelloRin) for the
+    [World icons, in SVG form](https://github.com/OthelloRhin/MHW_Icons_SVG).
+
 # License TL;DR
 
 This project is distributed under the MIT license. This is a paraphrasing of a
